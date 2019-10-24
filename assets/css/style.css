@@ -1,3 +1,60 @@
+.index-header {
+    height: 75px;
+    background: #ffffff;
+}
+
+.ih-1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    height: 75px;
+    margin-left: 100px;
+    padding: 0px 20px 0px 20px;
+}
+
+.ih-2 {
+    color: grey;
+    padding: 20px 50px;
+    float: right;
+}
+
+.bio {
+    background-color: white;
+    margin: 10px 10% 50px 10%;
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    display: block;
+}
+
+.container1 {
+    background-color: #dddddd;
+    height: 750px;
+    width: 100%;
+    clear: both;
+}
+
+footer {
+    background-color: #666666;
+    height: 100px;
+    border-top: 8px solid #4aaaa5;
+    position: sticky;
+}
+
+#bio-pic {
+    float: left;
+    padding-left: 15px;
+}
+
+a {
+    padding: 0px 20px;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 h1 {
-    color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
