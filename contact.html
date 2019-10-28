@@ -5,27 +5,38 @@
 
     <meta charset ="UTF-8">
     <title>My Portfolio</title>
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <section>
+    <header class="index-header">
+        <section class="ih-1">
             <h1>Howard Kennedy</h1>
         </section>
         
-        <section>
-            <a>About</a>
+        <section class="ih-2">
+            <ul>
+            <a href="index.html">About</a>
                 
-            <a>Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
         
-            <a>Contact</a>
+            <a href="contact.html">Contact</a>
+            </ul>
         </section>
     </header>
 
-    <div>
-        <section>
-            <h1>Contact</h1>
+    <div class="container1">
+        <section class="bio">
+            <h2>Contact</h2>
+            <form>
+                Name:<br>
+                <input type="text" name="name" placeholder="Your Name Here"><br>
+                Email:<br>
+                <input type="text" name="email" placeholder="you@gmail.com"><br>
+                Message:<br>
+                <textarea type="text" name="message" rows="25" cols="60" placeholder="say your thing">
+                </textarea>
+            </form>
         </section>
 
     </div>

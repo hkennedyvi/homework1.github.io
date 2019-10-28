@@ -1,5 +1,4 @@
 .index-header {
-    height: 75px;
     background: #ffffff;
 }
 
@@ -7,9 +6,9 @@
     background-color: #4aaaa5;
     color: white;
     float: left;
-    height: 75px;
+    height: 80px;
     margin-left: 100px;
-    padding: 0px 20px 0px 20px;
+    padding: 13px 20px 0px 20px;
 }
 
 .ih-2 {
@@ -25,6 +24,7 @@
     height: 600px;
     position: absolute;
     display: block;
+    padding-left: 20px;
 }
 
 .container1 {
@@ -41,13 +41,29 @@ footer {
     position: sticky;
 }
 
+.portfolio {
+    height: 800px;
+}
+
 #bio-pic {
     float: left;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a {
     padding: 0px 20px;
+    border-right: solid grey 1px;
+    text-decoration: none;
+    color: #777777;
+}
+
+a:link a:visited {
+    color: #777777;
+}
+
+a:hover {
+    background-color: #afafaf;
+    color: black;
 }
 
 p {
@@ -57,4 +73,27 @@ p {
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
 }
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.row {
+    display: grid;
+    padding: 0 20px;
+    max-width: 75%;
+    margin-left: 50px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  img {
+      margin-left: 50px;
+  }
