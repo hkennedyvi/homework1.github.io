@@ -1,51 +1,62 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header class="index-header">
-        <section class="ih-1">
-            <h1>Howard Kennedy</h1>
+    <div class="wrapper">
+        <section>
+            <header>
+                <div class="top-name-banner">
+                    <h1>Howard Kennedy</h1>
+                </div>
+                <div class="navigation-items">
+                    <ul>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </ul>
+                </div>
+            </header>
         </section>
 
-        <section class="ih-2">
-            <ul>
-                <a href="index.html">About</a>
+        <section class="container">
+            <div class="box">
+                <div class="box-header">
+                    <h2>Contact</h2>
+                </div>
 
-                <a href="portfolio.html">Portfolio</a>
-
-                <a href="contact.html">Contact</a>
-            </ul>
-        </section>
-    </header>
-
-    <div class="container1">
-        <section class="bio">
-            <h2>Contact</h2>
-            <form>
-                Name<br>
-                <input type="text" name="name" id="text" size="116" placeholder="John Smith"><br>
-                Email<br>
-                <input type="text" name="email" id="text" size="116" placeholder="example@gmail.com"><br>
-                Message<br>
-                <textarea type="text" name="message" id="text2" rows="25" cols="173" width="100%">
-                </textarea>
-                <input class="button" type="submit" value="Submit">
-            </form>
+                <div class="contact-form">
+                    <form>
+                        Name<br>
+                        <input type="text" name="name" id="form-text" size="116" placeholder="John Smith"><br>
+                        Email<br>
+                        <input type="text" name="email" id="form-text" size="116" placeholder="example@gmail.com"><br>
+                        Message<br>
+                        <textarea type="text" name="message" id="form-text2" cols="173" width="100%">
+                        </textarea>
+                        <input class="button" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </section>
 
+        <section>
+            <div class="push">
+
+            </div>
+
+            <footer>
+
+            </footer>
+        </section>
     </div>
-
 </body>
-
-<footer>
-
-</footer>
 
 </html>
